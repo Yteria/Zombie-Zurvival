@@ -6,6 +6,15 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Test_LEvel.umap",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Test_Level1.umap",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Level_1_test.umap",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/world_war_zombie_diffuse.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/world_war_zombie_normal.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/world_war_zombie_specular.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/WorldWar_zombie_material.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/Zombie_Walk__1_.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/Zombie_Walk__1__PhysicsAsset.uasset",
+				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/Zombie_Walk__1__Skeleton.uasset",
 				"C:/Users/Anton/Documents/Unreal Projects/Zombie_Zurvival/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
