@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/BP_GameMode_ZZ.uasset",
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/AdvanceWeaponPack/FirstPersonContent/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/AdvanceWeaponPack/Blueprints/BP_Inventory_Attachment.uasset",
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/AdvanceWeaponPack/Blueprints/BP_Inventory_Weapon.uasset",
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/AdvanceWeaponPack/Widget/Inventory/DropToSlot_Inventory.uasset",
+				"C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/AdvanceWeaponPack/Widget/Inventory/WeaponSlot.uasset",
 				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Level_1_test.umap",
 				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/world_war_zombie_diffuse.uasset",
 				"C:/Users/ellio/Documents/Unreal Projects/GP4EB/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Elliott/Zombies/world_war_zombie_normal.uasset",
