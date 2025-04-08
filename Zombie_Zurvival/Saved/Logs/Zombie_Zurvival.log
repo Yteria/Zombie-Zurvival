@@ -1230,3 +1230,180 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.04.08-07.50.16:172][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2025.04.08-07.50.16:180][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
 [2025.04.08-07.50.16:223][348]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: ================================================
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Total job queries 197, among them cache hits 33 (16.75%), DDC hits 152 (77.16%), Duplicates 6 (3.05%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Tracking 158 distinct input hashes that result in 147 distinct outputs (93.04%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: RAM used: 5,20 MiB of 1,60 GiB budget. Usage: 0.32%
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Job execution time: average 1.68 s, max 1.87 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Job life time (pending + execution): average 1.74 s, max 1.93
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Shader code size: average 32,849 KiB, min 27,727 KiB, max 35,863 KiB
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.93 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Average processing rate: 3.11 jobs/sec
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Total thread time: 2,452 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Total thread preprocess time: 2,742 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Percentage time preprocessing: 111.83%
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Effective parallelization: 1.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.55 sec, max 0.60 sec, min 0.49 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.41 sec, max 0.48 sec, min 0.33 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 44.68% of total time (compiled    2 times, average 0.55 sec, max 0.60 sec, min 0.49 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 33.13% of total time (compiled    2 times, average 0.41 sec, max 0.48 sec, min 0.33 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.09% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.09% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display:                          TVoxelizeVolumeGS<VMode_Object_Box> - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: === Material stats ===
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Materials Translated:    144
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Material Translation Only: 0.03 s (40%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: Material Cache Hits: 27 (19%)
+[2025.04.08-07.51.50:882][595]LogShaderCompilers: Display: ================================================
+[2025.04.08-07.53.41:890][928]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 654.875977
+[2025.04.08-07.53.42:891][931]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.08-07.53.42:891][931]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 655.542480, Update Interval: 334.117249
+[2025.04.08-07.59.15:107][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.04.08-07.59.15:108][587]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Workspaces/Elliott/Level_1_test' took 0.015
+[2025.04.08-07.59.15:116][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Workspaces/Elliott/BP_GameMode_ZZ] ([2] browsable assets)...
+[2025.04.08-07.59.15:116][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Workspaces/Elliott/BP_GameMode_ZZ]
+[2025.04.08-07.59.15:124][587]LogPackageLocalizationCache: Processed 52 localized package path(s) for 1 prioritized culture(s) in 0.008240 seconds
+[2025.04.08-07.59.15:135][587]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Workspaces/Elliott/BP_GameMode_ZZ_Auto1
+[2025.04.08-07.59.15:135][587]LogSavePackage: Moving 'C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Saved/BP_GameMode_ZZ_Auto1999C213440367A969D365CBFDFE76725.tmp' to 'C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Saved/Autosaves/Game/Workspaces/Elliott/BP_GameMode_ZZ_Auto1.uasset'
+[2025.04.08-07.59.15:137][587]LogFileHelpers: Auto-saving content packages took 0.023
+[2025.04.08-07.59.24:556][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 997.544006
+[2025.04.08-07.59.24:723][736]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.08-07.59.24:723][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 997.702332, Update Interval: 337.667786
+[2025.04.08-08.00.53:341][151]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2025.04.08-08.01.00:329][869]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.08-08.01.00:340][869]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.08-08.01.00:346][870]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.08-08.01.04:746][385]LogContentBrowser: Attempting asset rename: NewFolder -> Anton
+[2025.04.08-08.01.04:747][385]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.08-08.01.12:510][270]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2025.04.08-08.01.12:516][270]LogContentBrowser: Creating deferred item: NewWorld
+[2025.04.08-08.01.12:532][272]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2025.04.08-08.01.30:472][361]LogContentBrowser: Attempting asset rename: NewWorld -> Anton_Test_lvl
+[2025.04.08-08.01.30:483][361]LogContentBrowser: End creating deferred item NewWorld
+[2025.04.08-08.01.32:216][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.04.08-08.01.47:623][559]LogSlate: Window 'Save Content' being destroyed
+[2025.04.08-08.01.47:640][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-08.01.47:693][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.04.08-08.01.47:695][559]LogSavePackage: Moving output files for package: /Game/Workspaces/Anton/Anton_Test_lvl
+[2025.04.08-08.01.47:695][559]LogSavePackage: Moving 'C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Saved/Anton_Test_lvl1850EB304F9F5EC824B4D2ABDE19E93F.tmp' to 'C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Anton/Anton_Test_lvl.umap'
+[2025.04.08-08.01.47:704][559]LogFileHelpers: Saving map 'Anton_Test_lvl' took 0.026
+[2025.04.08-08.01.47:745][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.953 ms
+[2025.04.08-08.01.47:746][559]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Workspaces/Anton/Anton_Test_lvl.Anton_Test_lvl
+[2025.04.08-08.01.47:746][559]Cmd: MAP LOAD FILE="C:/Users/Anton/Documents/GitHub/Zombie-Zurvival/Zombie_Zurvival/Content/Workspaces/Anton/Anton_Test_lvl.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.08-08.01.47:772][559]LogWorld: UWorld::CleanupWorld for Level_1_test, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.47:772][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.47:772][559]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.04.08-08.01.47:772][559]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.04.08-08.01.47:785][559]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.08-08.01.47:788][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-08.01.47:789][559]LogWorld: UWorld::CleanupWorld for Anton_Test_lvl, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.47:789][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.47:805][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-08.01.47:820][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.08-08.01.47:822][559]LogAudio: Display: Audio Device (ID: 1) registered with world 'Anton_Test_lvl'.
+[2025.04.08-08.01.47:822][559]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2025.04.08-08.01.47:834][559]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.08-08.01.47:851][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.04.08-08.01.47:856][559]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.08-08.01.47:856][559]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,096ms to complete.
+[2025.04.08-08.01.47:910][559]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.08-08.01.47:910][559]LogContentValidation: Enabled validators:
+[2025.04.08-08.01.47:910][559]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.08-08.01.47:910][559]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.08-08.01.47:910][559]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.08-08.01.47:910][559]LogContentValidation: Display: Validating asset /Game/Workspaces/Anton/Anton_Test_lvl.Anton_Test_lvl
+[2025.04.08-08.01.47:910][559]AssetCheck: /Game/Workspaces/Anton/Anton_Test_lvl Validating asset
+[2025.04.08-08.01.50:890][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.04.08-08.01.52:603][891]LogSlate: Window 'Save Content' being destroyed
+[2025.04.08-08.01.52:630][891]LogStall: Shutdown...
+[2025.04.08-08.01.52:634][891]LogStall: Shutdown complete.
+[2025.04.08-08.01.52:699][891]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.52:699][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.52:754][891]LogSlate: Window 'Zombie_Zurvival - Unreal Editor' being destroyed
+[2025.04.08-08.01.52:858][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.08-08.01.52:867][891]Cmd: QUIT_EDITOR
+[2025.04.08-08.01.52:867][892]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.04.08-08.01.52:872][892]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.04.08-08.01.52:872][892]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.04.08-08.01.52:873][892]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.04.08-08.01.52:873][892]LogWorld: UWorld::CleanupWorld for Anton_Test_lvl, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.52:873][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.52:873][892]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2025.04.08-08.01.52:873][892]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2025.04.08-08.01.52:884][892]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.04.08-08.01.52:886][892]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.52:886][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.52:889][892]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-08.01.52:889][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-08.01.52:926][892]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.04.08-08.01.52:928][892]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.04.08-08.01.52:928][892]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.04.08-08.01.52:928][892]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.04.08-08.01.53:921][892]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.04.08-08.01.53:921][892]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.04.08-08.01.53:921][892]LogAudio: Display: Audio Device unregistered from world 'Anton_Test_lvl'.
+[2025.04.08-08.01.53:921][892]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.04.08-08.01.53:921][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.08-08.01.53:922][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.08-08.01.53:927][892]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.04.08-08.01.53:927][892]LogAudio: Display: Audio Device Manager Shutdown
+[2025.04.08-08.01.53:927][892]LogWindowsTextInputMethodSystem: Activated input method: Svenska (Sverige) - (Keyboard).
+[2025.04.08-08.01.53:929][892]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.04.08-08.01.53:929][892]LogExit: Preparing to exit.
+[2025.04.08-08.01.53:950][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.53:952][892]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.08-08.01.54:459][892]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.04.08-08.01.54:469][892]LogExit: Editor shut down
+[2025.04.08-08.01.54:470][892]LogExit: Transaction tracking system shut down
+[2025.04.08-08.01.54:617][892]LogExit: Object subsystem successfully closed.
+[2025.04.08-08.01.54:627][892]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.04.08-08.01.55:183][892]MemoryProfiler: Shutdown
+[2025.04.08-08.01.55:184][892]NetworkingProfiler: Shutdown
+[2025.04.08-08.01.55:184][892]LoadingProfiler: Shutdown
+[2025.04.08-08.01.55:184][892]TimingProfiler: Shutdown
+[2025.04.08-08.01.55:299][892]LogOpenImageDenoise: OIDN shutting down
+[2025.04.08-08.01.55:541][892]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.04.08-08.01.55:541][892]RenderDocPlugin: plugin has been unloaded.
+[2025.04.08-08.01.55:569][892]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.04.08-08.01.55:569][892]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B137F9189-4756-E67D-59AF-5791DEAE4C41%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.4-35576357%2B%2B%2BUE5%2BRelease-5.4&UserID=e61ff2f64e4870bd673f63a44232a8c6%7Cfb9691a4fc2d44eab0ccbd5ccf86fb8b%7Cf5df7e27-d20d-4484-96b9-c373c0d8d04b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.04.08-08.01.56:138][892]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.04.08-08.01.56:139][892]LogXGEController: Cleaning working directory: C:/Users/Anton/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.04.08-08.01.56:141][892]LogPakFile: Destroying PakPlatformFile
+[2025.04.08-08.01.56:242][892]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.04.08-08.01.56:272][892]LogExit: Exiting.
+[2025.04.08-08.01.56:294][892]Log file closed, 04/08/25 10:01:56
