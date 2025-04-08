@@ -21,6 +21,7 @@ Zombie_Zurvival/Saved/Logs/Zombie_Zurvival.log
 Zombie_Zurvival/Saved/AutoScreenshot.png
 /Zombie_Zurvival/Saved/Config
 /Zombie_Zurvival/Saved/Telemetry
+<<<<<<< HEAD
 Zombie_Zurvival/Saved/Telemetry/Telemetry.json
 Zombie_Zurvival/Saved/Telemetry/Telemetry.json
 Zombie_Zurvival/Saved/SourceControl/UncontrolledChangelists.json
@@ -28,3 +29,5 @@ Zombie_Zurvival/Saved/Logs/Zombie_Zurvival.log
 Zombie_Zurvival/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 Zombie_Zurvival/Saved/AutoScreenshot.png
 Zombie_Zurvival/Intermediate/CachedAssetRegistry_0.bin
+=======
+>>>>>>> parent of ba77a40 (Corekting UI and adding follow logic)
